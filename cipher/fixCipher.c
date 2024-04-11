@@ -186,24 +186,10 @@ void invShiftRows(unsigned char* state) {
 //void MixColumns(uint8_t *state) {
     // Implementation here
 //}
-const unsigned char mix_column_matrix[4][4] =
-{
-    {0x02, 0x03, 0x01, 0x01},
-    {0x01, 0x02, 0x03, 0x01},
-    {0x01, 0x01, 0x02, 0x03},
-    {0x03, 0x01, 0x01, 0x02}
-};
 
-const unsigned char inv_mix_column_matrix[4][4] =
-{
-    {0x0E, 0x0B, 0x0D, 0x09},
-    {0x09, 0x0E, 0x0B, 0x0D},
-    {0x0D, 0x09, 0x0E, 0x0B},
-    {0x0B, 0x0D, 0x09, 0x0E}
-};
 unsigned char xtime(unsigned char x)
 {
-    if (x >> 7)
+    if (x >> 7) // a7 = 1
     {
         return ((x << 1) ^ 0x1B);
     }
@@ -212,9 +198,14 @@ unsigned char xtime(unsigned char x)
         return (x << 1);
     }
 }
+//xtime la nhan voi x(02h)
 // vi du goi :unsigned char result1 = xtime(0x57);
 //
 // Hàm MixColumn
+//| 2  3  1  1 |   | b0 |   | 02b0 |
+//| 1  2  3  1 | *| b1 | = | 0159 |
+//| 1  1  2  3 |   | b2 |   | 01fd |
+//| 3  1  1  2 |   | b3 |   | 03a1 |
 void MixColumn(unsigned char* state)
 {
     unsigned char tmp[4];
@@ -250,6 +241,10 @@ unsigned char multiply(unsigned char a, unsigned char b)
 }
 
 // Hàm UnMixColumn
+//| 14  11  13  9 |
+//| 9   14  11  13|
+//| 13  9   14  11|
+//| 11  13  9   14 |
 void UnMixColumn(unsigned char* state)
 {
     unsigned char tmp[4];
@@ -396,8 +391,9 @@ int main() {
         while (getchar() != '\n');
         switch (choice) {
         case 1:
-            start = clock();
+            
             getInputKey(key);
+            start = clock();
             ExpandKey(key, expandedKey);
             if (fopen_s(&inputFile, "plaintext_input.txt", "r") != 0) {
                 printf("Cannot open file plaintext_input.txt.\n");
@@ -434,14 +430,16 @@ int main() {
             //copyvecto = vecto;
             fclose(inputFile);
             fclose(outputFile);
-            printf("Encrypted data has been written to the file planttext_output.txt");
             end = clock();
             cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
             printf("\nTime to execute: %f second\n", cpu_time_used);
+            printf("Encrypted data has been written to the file planttext_output.txt");
+            
             break;
         case 2:
-            start = clock();
+            
             getInputKey(key);
+            start = clock();
             ExpandKey(key, expandedKey);
             if (fopen_s(&inputFileCir, "plaintext_output.txt", "r") != 0) {
                 printf("Cannot open file plaintext_output.txt.\n");
@@ -479,10 +477,11 @@ int main() {
             equal(vecto, copyvecto);
             fclose(inputFileCir);
             fclose(file);
-            printf("Decoded data has been written to the file ciphertext_out.txt");
             end = clock();
             cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
             printf("\nTime to execute: %f second\n", cpu_time_used);
+            printf("Decoded data has been written to the file ciphertext_out.txt");
+            
             break;
         case 3:
             printf("Exit program.\n");
@@ -493,17 +492,5 @@ int main() {
         }
     } while (choice != 3);
 
-     /*  unsigned char plaintext[16] = {
-        0x64, 0x61, 0x74, 0x6e,
-        0x67, 0x6f, 0x31, 0x32,
-        0x33, 0x34, 0x64, 0x69,
-        0x6e, 0x68, 0x68, 0x61
-       };
-       unsigned char ciphertext[16] = {
-        0x04, 0x89, 0xde, 0xd5,
-        0xdc, 0xa3, 0x4e, 0xeb,
-        0xb4, 0xd8, 0xfa, 0x9d,
-        0xbd, 0x93, 0x2b, 0xe7
-       };*/
     return 0;
 }

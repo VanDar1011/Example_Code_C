@@ -1,1 +1,685 @@
-﻿i'm Dat, i come from Vietnam.
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://github.com/necolas/normalize.css/blob/master/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style1.css">
+    <title>NFT-lopbotuc-figma</title>
+</head>
+
+<body>
+    <div class="nft">
+        <div class="nft_inner">
+            <!-- begin sidebar_left -->
+            <div class="sidebar_left">
+                <!-- end logo_inner  -->
+                <div class="logo_inner">
+                    <a href="#!">
+                        <img src="./assets/img/logo.svg" alt="logo_img">
+                    </a>
+                </div>
+
+                <div class="list_nav_inner">
+                    <!-- <div class="item_list"> -->
+                    <a href="#!" class="item_list">
+                        <img src="./assets/img/icon_home.svg" alt="icon_home">
+                    </a>
+                    <!-- </div> -->
+                    <!-- end item 1  -->
+                    <div class="item_list">
+                        <a href="#!">
+                            <img src="./assets/img/icon_message.svg" alt="icon_message">
+                        </a>
+                    </div>
+                    <!-- end item 2  -->
+                    <div class="item_list">
+                        <a href="#!">
+                            <img src="./assets/img/icon_buy.svg" alt="icon_buy">
+                        </a>
+                    </div>
+                    <!-- end item 3  -->
+                    <div class="item_list">
+                        <a href="#!">
+                            <img src="./assets/img/icon_activity.svg" alt="icon_activity">
+                        </a>
+                    </div>
+                    <!-- end item 4  -->
+                    <div class="item_list item_list_line">
+                        <a href="#!">
+                            <img src="./assets/img/icon_time_circle.svg" alt="icon_time_circle">
+                        </a>
+                    </div>
+                    <!-- end item 5  -->
+                    <div class="item_list">
+                        <a href="#!">
+                            <img src="./assets/img/icon_wallet.svg" alt="icon_wallet">
+                        </a>
+                    </div>
+                    <!-- end item 6  -->
+                    <div class="item_list">
+                        <a href="#!">
+                            <img src="./assets/img/icon_friends.svg" alt="icon_friends">
+                        </a>
+                    </div>
+                    <!-- end item 7  -->
+                    <div class="item_list">
+                        <a href="#!">
+                            <img src="./assets/img/icon_log_out.svg" alt="icon_log_out">
+                        </a>
+                    </div>
+                    <!-- end item 8  -->
+                </div>
+
+            </div>
+            <!-- end sidebar_left  -->
+
+            <!-- begin main  -->
+            <div class="main">
+                <!-- begin header_main  -->
+                <div class="header_main">
+                    <div class="search_form">
+                        <div class="icon_search">
+                            <label for="search_input">
+                                <img src="./assets/img/icon_search.svg" alt="icon_search">
+                            </label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <!-- end search_form  -->
+                    <div class="navigation">
+                        <div class="coin">
+                            <img src="./assets/img/icon_eth.svg" alt="icon_eth">
+                            <span>3.25 eth</span>
+                        </div>
+                        <!-- end coin  -->
+                        <div class="notification">
+                            <img src="./assets/img/icon_nofication.svg" alt="icon_nofication">
+                        </div>
+                        <!-- end notification  -->
+                        <div class="group-btn">
+                            <a href="#!">
+                                <div class="creat_btn">
+                                    <span>Creat</span>
+                                </div>
+                            </a>
+                            <a href="#!">
+                                <div class="connect_wallet_btn">
+                                    <span>Connect Wallet</span>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- end btn_creat btn_connect_wallet  -->
+                        <div class="user-infor">
+                            <label for="check-aside">
+                                <img src="./assets/image/avt-user" alt="" class="avt-user">
+                            </label>
+                            <div class="user-name">
+                                <span class="name">Nguyen Duong</span>
+                                <span class="tag-name">@ngdn</span>
+                            </div>
+                            <img src="./assets/img/icon_down.svg" alt="icon_down" class="caret_down">
+
+                        </div>
+                        <!-- end user-infor  -->
+                    </div>
+                    <!-- end navigation  -->
+                </div>
+                <!-- end header_main  -->
+
+                <!-- begin popular live auction  -->
+                <div class="popular_live_auction">
+                    <div class="header_popular_live_auction">
+                        <h2 class="heading2 title_popular_live_auction">
+                            Popular NFT’s Live Auction
+                        </h2>
+                        <div class="show_more_btn">
+                            <span>Show More</span>
+                            <img src="./assets/img/icon_left_show_more.svg" alt="left_show_more">
+                        </div>
+                    </div>
+                    <!-- end header popular_live_auction  -->
+
+                    <!-- slide_auction  -->
+                    <div class="slide_auction">
+                        <!-- item 1 -->
+                        <div class="item_auction">
+                            <div class="item_infor">
+                                <div class="row_item">
+                                    <div class="left_row">
+                                        <div class="time_left_row">
+                                            <img src="./assets/img/icon_hourglass.svg" alt="icon_hourglass">
+                                            <div class="time_left_row">
+                                                <span class="time">
+                                                    18h : 17m : 29s
+                                                </span>
+                                                <span class="description_time">
+                                                    Time Remaining
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end left_row  -->
+
+                                    <div class="right_row">
+                                        <span class="price_eth">17.53 ETH</span>
+                                        <span class="description_price_eth">
+                                            Highest Bid
+                                        </span>
+                                    </div>
+                                    <!-- end right_row  -->
+                                </div>
+                                <!-- end row  -->
+                                <button class="btn_place">
+                                    Place A Bid
+                                </button>
+                            </div>
+                        </div>
+                        <!-- end item 1  -->
+                        <!-- item 2 -->
+                        <div class="item_auction">
+                            <div class="item_infor">
+                                <div class="row_item">
+                                    <div class="left_row">
+                                        <div class="time_left_row">
+                                            <img src="./assets/img/icon_hourglass.svg" alt="icon_hourglass">
+                                            <div class="time_left_row">
+                                                <span class="time">
+                                                    18h : 17m : 29s
+                                                </span>
+                                                <span class="description_time">
+                                                    Time Remaining
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end left_row  -->
+
+                                    <div class="right_row">
+                                        <span class="price_eth">17.53 ETH</span>
+                                        <span class="description_price_eth">
+                                            Highest Bid
+                                        </span>
+                                    </div>
+                                    <!-- end right_row  -->
+                                </div>
+                                <!-- end row  -->
+                                <button class="btn_place">
+                                    Place A Bid
+                                </button>
+                            </div>
+                        </div>
+                        <!-- end item 2  -->
+                    </div>
+                    <!-- end slide_auction  -->
+                </div>
+                <!-- end popular_live_auction  -->
+                <!-- top_seller  -->
+                <div class="top_seller">
+                    <!-- header top_seller  -->
+                    <div class="header_top_seller">
+                        <h2>
+                            ⭐ Top Sellers
+                        </h2>
+                    </div>
+                    <!-- end header top_seller  -->
+                    <div class="list_top_seller">
+                        <!-- item top_seller 1  -->
+                        <div class="item_top_seller">
+                            <img src="./assets/img/top_seller1.png" alt="img_top_seller1">
+                            <div class="infor_item_top_seller">
+                                <div class="user_name">
+                                    <span>@hgan</span>
+                                    <img src="./assets/img/icon_verfication.svg" alt="icon_verfication">
+                                </div>
+                                <span class="coin">$232,102</span>
+                            </div>
+                        </div>
+                        <!-- end item top_seller 1 -->
+                        <!-- item top_seller 2  -->
+                        <div class="item_top_seller">
+                            <img src="./assets/img/top_seller2.png" alt="img_top_seller2">
+                            <div class="infor_item_top_seller">
+                                <div class="user_name">
+                                    <span>@anhqun</span>
+                                    <img src="./assets/img/icon_verfication.svg" alt="icon_verfication">
+                                </div>
+                                <span class="coin">$232,102</span>
+                            </div>
+                        </div>
+                        <!-- end item top_seller 2 -->
+
+                        <!-- item top_seller 3  -->
+                        <div class="item_top_seller">
+                            <img src="./assets/img/top_seller3.png" alt="img_top_seller3">
+                            <div class="infor_item_top_seller">
+                                <div class="user_name">
+                                    <span>@dnhp</span>
+                                    <img src="./assets/img/icon_verfication.svg" alt="icon_verfication">
+                                </div>
+                                <span class="coin">$232,102</span>
+                            </div>
+                        </div>
+                        <!-- end item top_seller 3 -->
+                        <!-- item top_seller 4  -->
+                        <div class="item_top_seller">
+                            <img src="./assets/img/top_seller4.png" alt="img_top_seller4">
+                            <div class="infor_item_top_seller">
+                                <div class="user_name">
+                                    <span>@ngdg</span>
+                                    <img src="./assets/img/icon_verfication.svg" alt="icon_verfication">
+                                </div>
+                                <span class="coin">$232,102</span>
+                            </div>
+                        </div>
+                        <!-- end item top_seller 4 -->
+                        <!-- item top_seller 5 -->
+                        <div class="item_top_seller">
+                            <img src="./assets/img/top_seller5.png" alt="img_top_seller5">
+                            <div class="infor_item_top_seller">
+                                <div class="user_name">
+                                    <span>@sondn</span>
+                                    <img src="./assets/img/icon_verfication.svg" alt="icon_verfication">
+                                </div>
+                                <span class="coin">$232,102</span>
+                            </div>
+                        </div>
+                        <!-- end item top_seller 5 -->
+                        <!-- item top_seller 6  -->
+                        <div class="item_top_seller">
+                            <img src="./assets/img/top_seller6.png" alt="img_top_seller6">
+                            <div class="infor_item_top_seller">
+                                <div class="user_name">
+                                    <span>@ali33</span>
+                                    <img src="./assets/img/icon_verfication.svg" alt="icon_verfication">
+                                </div>
+                                <span class="coin">$232,102</span>
+                            </div>
+                        </div>
+                        <!-- end item top_seller 6 -->
+                    </div>
+                </div>
+                <!-- end list top_seller  -->
+                <!-- end top_seller  -->
+                <!-- </div> -->
+                <!-- hot bid  -->
+                <div class="hot_bid">
+                    <div class="header_hot_bid">
+                        🔥 Hot Bids
+                    </div>
+                    <div class="list_hot_bid">
+                        <!-- item hot_bid 1  -->
+                        <div class="item_hot_bid">
+                            <div class="time_and_liked">
+                                <div class="item_item">
+                                    <img src="./assets/img/divcheo.svg" alt="div_cheo">
+                                    <span>02:32:07</span>
+                                </div>
+                                <div class="liked_item">
+                                    <span>232</span>
+                                    <img src="./assets/img/heart_full.svg" alt="heart_full">
+                                </div>
+                            </div>
+                            <div class="main_item_hot_bid">
+                                <img src="./assets/img/hot_bit1.png" alt="main_hotbit1">
+                            </div>
+                            <div class="infor_hotbid">
+                                <h3 class="heading3 title_hot_bit">
+                                    Stretch Of Time
+                                </h3>
+                                <div class="description_hot_bit">
+                                    <span>0.045 ETH</span>
+                                    <div class="img_description">
+                                        <img src="./assets/img/hot_bit1.1.png" alt="hot_bit1.1">
+                                        <img src="./assets/img/hot_bit1.2.png" alt="hot_bit1.2">
+                                        <img src="./assets/img/hot_bit1.3.png" alt="hot_bit1.3">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end item hot_bid 1  -->
+                        <!-- item hot_bid 2  -->
+                        <div class="item_hot_bid">
+                            <div class="time_and_liked">
+                                <div class="item_item">
+                                    <img src="./assets/img/divcheo.svg" alt="div_cheo">
+                                    <span>00:00:00</span>
+                                </div>
+                                <div class="liked_item">
+                                    <span>172</span>
+                                    <img src="./assets/img/heart_empty.svg" alt="heart_empty">
+                                </div>
+                            </div>
+                            <div class="main_item_hot_bid">
+                                <img src="./assets/img/hot_bit2.png" alt="main_hotbit2">
+                            </div>
+                            <div class="infor_hotbid">
+                                <h3 class="heading3 title_hot_bit">
+                                    Arcade Land
+                                </h3>
+                                <div class="description_hot_bit">
+                                    <span>0.045 ETH</span>
+                                    <div class="img_description">
+                                        <img src="./assets/img/hot_bit2.1.png" alt="hot_bit2.1">
+                                        <img src="./assets/img/hot_bit2.2.png" alt="hot_bit2.2">
+                                        <img src="./assets/img/hot_bit2.3.png" alt="hot_bit2.3">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end item hot_bid 2  -->
+                        <!-- item hot_bid 3  -->
+                        <div class="item_hot_bid">
+                            <div class="time_and_liked">
+                                <div class="item_item">
+                                    <img src="./assets/img/divcheo.svg" alt="div_cheo">
+                                    <span>12:05:00</span>
+                                </div>
+                                <div class="liked_item">
+                                    <span>99</span>
+                                    <img src="./assets/img/heart_empty.svg" alt="heart_empty">
+                                </div>
+                            </div>
+                            <div class="main_item_hot_bid">
+                                <img src="./assets/img/hot_bit3.png" alt="main_hotbit3">
+                            </div>
+                            <div class="infor_hotbid">
+                                <h3 class="heading3 title_hot_bit">
+                                    Shinsekai Portal
+                                </h3>
+                                <div class="description_hot_bit">
+                                    <span>0.045 ETH</span>
+                                    <div class="img_description">
+                                        <img src="./assets/img/hot_bit1.1.png" alt="hot_bit1.1">
+                                        <img src="./assets/img/hot_bit1.2.png" alt="hot_bit1.2">
+                                        <img src="./assets/img/hot_bit1.3.png" alt="hot_bit1.3">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end item hot_bid 3  -->
+                        <!-- item hot_bid 4  -->
+                        <div class="item_hot_bid">
+                            <div class="time_and_liked">
+                                <div class="item_item">
+                                    <img src="./assets/img/divcheo.svg" alt="div_cheo">
+                                    <span>00:00:00</span>
+                                </div>
+                                <div class="liked_item">
+                                    <span>43</span>
+                                    <img src="./assets/img/heart_empty.svg" alt="heart_empty">
+                                </div>
+                            </div>
+                            <div class="main_item_hot_bid">
+                                <img src="./assets/img/hot_bit4.png" alt="main_hotbit4">
+                            </div>
+                            <div class="infor_hotbid">
+                                <h3 class="heading3 title_hot_bit">
+                                    Paper Cut
+                                </h3>
+                                <div class="description_hot_bit">
+                                    <span>0.045 ETH</span>
+                                    <div class="img_description">
+                                        <img src="./assets/img/hot_bit2.1.png" alt="hot_bit2.1">
+                                        <img src="./assets/img/hot_bit2.2.png" alt="hot_bit2.2">
+                                        <img src="./assets/img/hot_bit2.3.png" alt="hot_bit2.3">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end item hot_bid 4  -->
+                        <!-- item hot_bid 5  -->
+                        <div class="item_hot_bid">
+                            <div class="time_and_liked">
+                                <div class="item_item">
+                                    <img src="./assets/img/divcheo.svg" alt="div_cheo">
+                                    <span>00:00:00</span>
+                                </div>
+                                <div class="liked_item">
+                                    <span>43</span>
+                                    <img src="./assets/img/heart_full.svg" alt="heart_full">
+                                </div>
+                            </div>
+                            <div class="main_item_hot_bid">
+                                <img src="./assets/img/hot_bit5.png" alt="main_hotbit5">
+                            </div>
+                            <div class="infor_hotbid">
+                                <h3 class="heading3 title_hot_bit">
+                                    Cyber Brokers
+                                </h3>
+                                <div class="description_hot_bit">
+                                    <span>0.045 ETH</span>
+                                    <div class="img_description">
+                                        <img src="./assets/img/hot_bit1.1.png" alt="hot_bit1.1">
+                                        <img src="./assets/img/hot_bit1.2.png" alt="hot_bit1.2">
+                                        <img src="./assets/img/hot_bit1.3.png" alt="hot_bit1.3">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end item hot_bid 5  -->
+                        <!-- item hot_bid 6  -->
+                        <div class="item_hot_bid">
+                            <div class="time_and_liked">
+                                <div class="item_item">
+                                    <img src="./assets/img/divcheo.svg" alt="div_cheo">
+                                    <span>00:00:00</span>
+                                </div>
+                                <div class="liked_item">
+                                    <span>43</span>
+                                    <img src="./assets/img/heart_full.svg" alt="heart_full">
+                                </div>
+                            </div>
+                            <div class="main_item_hot_bid">
+                                <img src="./assets/img/hot_bit6.png" alt="main_hotbit6">
+                            </div>
+                            <div class="infor_hotbid">
+                                <h3 class="heading3 title_hot_bit">
+                                    Akuma Origins
+                                </h3>
+                                <div class="description_hot_bit">
+                                    <span>0.045 ETH</span>
+                                    <div class="img_description">
+                                        <img src="./assets/img/hot_bit2.1.png" alt="hot_bit2.1">
+                                        <img src="./assets/img/hot_bit2.2.png" alt="hot_bit2.2">
+                                        <img src="./assets/img/hot_bit2.3.png" alt="hot_bit2.3">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end item hot_bid 6  -->
+                    </div>
+                </div>
+            </div>
+            <!-- end main  -->
+
+            <!-- begin aside  -->
+            <div class="aside">
+                <!-- img_aside  -->
+                <div class="img_aside">
+                    <img src="./assets/img/Ornament.png" alt="img_ornament">
+                </div>
+                <!-- end img_aside  -->
+                <!-- inner_aside -->
+
+                <div class="inner_aside">
+                    <!-- infor  -->
+                    <div class="infor">
+                        <h3 class="heading3 title_infor">
+                            My Profile
+                        </h3>
+                        <div class="img_avt">
+                            <img src="./assets/img/avt-user.png" alt="avt-user">
+                        </div>
+                        <h4 class="heading4 name_user">
+                            Nguyen Duong
+                        </h4>
+                    </div>
+                    <!-- statistic  -->
+                    <div class="statistic">
+                        <!-- item 1  -->
+                        <div class="item">
+                            <a href="#!" class="number_item_statistic">120</a>
+                            <span class="description-statistic">Asset</span>
+                        </div>
+                        <div class="item">
+                            <a href="#!" class="number_item_statistic">10k</a>
+                            <span class="description-statistic">Followers</span>
+                        </div>
+                        <div class="item">
+                            <a href="#!" class="number_item_statistic">70k</a>
+                            <span class="description-statistic">Likes</span>
+                        </div>
+                        <div class="item">
+                            <a href="#!" class="number_item_statistic">60</a>
+                            <span class="description-statistic">Bidding</span>
+                        </div>
+                    </div>
+
+                    <!-- end statistic  -->
+                    <!-- balance  -->
+                    <div class="balance">
+                        <h4 class="heading4 title_balance">Your Balance</h4>
+                        <div class="inner_balance">
+                            <div class="coin">
+                                <img src="./assets/img/icon_eth.svg" alt="icon_eth">
+                                <span class="number_of_eth">4,668 ETH</span>
+                            </div>
+                            <a href="#!" class="add_link">
+                                <span>Add</span>
+                                <img src="./assets/img/icon_chevron.svg" alt="icon_chevron">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end balance  -->
+                    <!-- revenue  -->
+                    <div class="revenue">
+                        <div class="row_revenue">
+                            <h4 class="heading4 title_revenue">Revenue</h4>
+                            <a href="#!" class="select_month_link">
+                                <span>Month</span>
+                                <img src="./assets/img/icon_chevron_down.svg" alt="icon_chevron_down">
+                            </a>
+                        </div>
+                        <div class="chart-inner">
+                            <div class="row">
+                                <span>2.0</span>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="row">
+                                <span>1.5</span>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="row">
+                                <span>1.0</span>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="row">
+                                <span>0.5</span>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="column-item">
+                                <div class="column jan">
+                                    <span class="month">Jan</span>
+                                </div>
+                                <div class="column feb">
+                                    <span class="month">Feb</span>
+                                </div>
+                                <div class="column mar">
+                                    <span class="month">Mar</span>
+                                </div>
+                                <div class="column apr">
+                                    <span class="month">Apr</span>
+                                </div>
+                                <div class="column may">
+                                    <span class="month">May</span>
+                                </div>
+                                <div class="column jun">
+                                    <span class="month">Jun</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end revenue  -->
+                </div>
+                <!-- activity  -->
+                <div class="activity">
+                    <div class="row_activity">
+                        <h4 class="heading4 title_activity">Recent Activity</h4>
+                        <a href="#!" class="see-all_link flex-align-center">
+                            <span>See All</span>
+                            <img src="./assets/img/icon_arrow.svg" alt="icon_arrow">
+                        </a>
+                    </div>
+                    <div class="activity-list">
+                        <div class="item">
+                            <div class="item-inner">
+                                <a href="#!">
+                                    <img src="./assets/img/crystal_art.png" alt="img_crystal_art">
+                                </a>
+                                <div class="item-info">
+                                    <div class="left">
+                                        <h4>
+                                            <a href="#!">Crystal_Art</a>
+                                        </h4>
+                                        <p>
+                                            by
+                                            <span><a href="#!">@ngdg</a></span>
+                                        </p>
+                                    </div>
+                                    <div class="right">
+                                        <span>New Bid</span>
+                                        <p>6.25 ETH</p>
+                                        <span class="time">3m ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-inner">
+                                <a href="#!">
+                                    <img src="./assets/img/creative_art.png" alt="img_creative_art">
+                                </a>
+                                <div class="item-info">
+                                    <div class="left">
+                                        <h4>
+                                            <a href="#!">Creative Art</a>
+                                        </h4>
+                                        <p>
+                                            by
+                                            <span><a href="#!">@anhqun</a></span>
+                                        </p>
+                                    </div>
+                                    <div class="right">
+                                        <span><a href="#!">New Bid</a></span>
+                                        <p>7.50 ETH</p>
+                                        <span class="time">3m ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end inner_aside  -->
+            </div>
+            <!-- end aside -->
+        </div>
+    </div>
+</body>
+
+</html>         

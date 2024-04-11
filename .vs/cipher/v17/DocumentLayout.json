@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Code C\\cipher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\fixCipher.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\fixCipher.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\fix24bit.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\fix24bit.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\ciphertext_output.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -19,12 +19,24 @@
       "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\plaintext_output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\fixCipher.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\fixCipher.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\plaintext_input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\plaintext_input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\btl.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\btl.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\menu.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\menu.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\readFile.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\readFile.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\cipherInput.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -37,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\testReadfile.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\testReadfile.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\readFile.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\readFile.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\text.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -62,7 +70,7 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 122,
+      "VerticalTabListWidth": 182,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -70,7 +78,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "giaima.c",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\giaima.c",
               "RelativeDocumentMoniker": "cipher\\giaima.c",
@@ -84,19 +92,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "fix24bit.c",
+              "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\fix24bit.c",
+              "RelativeDocumentMoniker": "cipher\\fix24bit.c",
+              "ToolTip": "D:\\Code C\\cipher\\cipher\\fix24bit.c",
+              "RelativeToolTip": "cipher\\fix24bit.c",
+              "ViewState": "AQIAAJoBAAAAAAAAAAAAAKMBAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-11T18:25:38.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "btl.c",
+              "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\btl.c",
+              "RelativeDocumentMoniker": "cipher\\btl.c",
+              "ToolTip": "D:\\Code C\\cipher\\cipher\\btl.c",
+              "RelativeToolTip": "cipher\\btl.c",
+              "ViewState": "AQIAAK8BAAAAAAAAAAAWwL0BAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-11T17:40:21.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "fixCipher.c",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\fixCipher.c",
               "RelativeDocumentMoniker": "cipher\\fixCipher.c",
               "ToolTip": "D:\\Code C\\cipher\\cipher\\fixCipher.c",
               "RelativeToolTip": "cipher\\fixCipher.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABjAAAA",
+              "ViewState": "AQIAANUBAAAAAAAAAAAmwOQBAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-06T14:48:48.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "testReadfile.c",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\testReadfile.c",
               "RelativeDocumentMoniker": "cipher\\testReadfile.c",
@@ -108,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "text.txt",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\text.txt",
               "RelativeDocumentMoniker": "cipher\\text.txt",
@@ -120,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "testTakeKey.c",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\testTakeKey.c",
               "RelativeDocumentMoniker": "cipher\\testTakeKey.c",
@@ -132,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "menu.c",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\menu.c",
               "RelativeDocumentMoniker": "cipher\\menu.c",
@@ -140,8 +173,7 @@
               "RelativeToolTip": "cipher\\menu.c",
               "ViewState": "AQIAALkBAAAAAAAAAAAwwNEBAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-06T09:34:07.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T09:34:07.133Z"
             },
             {
               "$type": "Document",
@@ -151,14 +183,14 @@
               "RelativeDocumentMoniker": "cipher\\ciphertext_output.txt",
               "ToolTip": "D:\\Code C\\cipher\\cipher\\ciphertext_output.txt",
               "RelativeToolTip": "cipher\\ciphertext_output.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKwCAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-04-04T20:45:50.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "layMaHexa.c",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\layMaHexa.c",
               "RelativeDocumentMoniker": "cipher\\layMaHexa.c",
@@ -176,7 +208,7 @@
               "RelativeDocumentMoniker": "cipher\\ciphertext_input.txt",
               "ToolTip": "D:\\Code C\\cipher\\cipher\\ciphertext_input.txt",
               "RelativeToolTip": "cipher\\ciphertext_input.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAADgDAEA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-04-04T18:37:35.752Z",
               "EditorCaption": ""
@@ -189,27 +221,26 @@
               "RelativeDocumentMoniker": "cipher\\plaintext_output.txt",
               "ToolTip": "D:\\Code C\\cipher\\cipher\\plaintext_output.txt",
               "RelativeToolTip": "cipher\\plaintext_output.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAB3DAEA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-04-04T17:44:19.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "plaintext_input.txt",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\plaintext_input.txt",
               "RelativeDocumentMoniker": "cipher\\plaintext_input.txt",
               "ToolTip": "D:\\Code C\\cipher\\cipher\\plaintext_input.txt",
               "RelativeToolTip": "cipher\\plaintext_input.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4BAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-04T17:41:56.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T17:41:56.547Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "readFile.c",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\readFile.c",
               "RelativeDocumentMoniker": "cipher\\readFile.c",
@@ -221,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "cipherInput.c",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\cipherInput.c",
               "RelativeDocumentMoniker": "cipher\\cipherInput.c",
@@ -229,12 +260,11 @@
               "RelativeToolTip": "cipher\\cipherInput.c",
               "ViewState": "AQIAALUBAAAAAAAAAAAgwMcBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-04T10:40:10.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T10:40:10.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "cipher.c",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\cipher.c",
               "RelativeDocumentMoniker": "cipher\\cipher.c",

@@ -42,6 +42,12 @@
     <ClCompile Include="fixCipher.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="btl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fix24bit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="plaintext_input.txt">

@@ -1,4 +1,4 @@
-﻿  fixCipher.c
-D:\Code C\cipher\cipher\fixCipher.c(160,19): warning C4101: 'temp2': unreferenced local variable
-D:\Code C\cipher\cipher\fixCipher.c(353,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+﻿  fix24bit.c
+D:\Code C\cipher\cipher\fix24bit.c(233,19): warning C4101: 'temp2': unreferenced local variable
+D:\Code C\cipher\cipher\fix24bit.c(421,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   cipher.vcxproj -> D:\Code C\cipher\x64\Debug\cipher.exe
