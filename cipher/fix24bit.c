@@ -453,7 +453,71 @@ void getInputKey(int *loop,int *block,unsigned char key[80]) {
         key[i] = input[i]; // Giữ nguyên ký tự đầu vào
     }
 }
+void getInputKey1(int* loop, int* block, unsigned char key[80])
+{
+    char input[80];  // Mảng để lưu 16 ký tự nhập từ bàn phím, kèm theo ký tự kết thúc chuỗi '\0'
+    int inputLength; // Độ dài thực sự của chuỗi nhập vào
+    int conlai;
+    // Nhập chuỗi từ bàn phím và kiểm tra độ dài
+    while (1)
+    {
+        printf("Enter key(Must is 16 or 24 or 32 bit) : ");
+        fgets(input, sizeof(input), stdin);
+        inputLength = strlen(input);
 
+        // Loại bỏ ký tự xuống dòng nếu có
+        if (input[inputLength - 1] == '\n')
+        {
+            input[inputLength - 1] = '\0';
+            inputLength--; // Giảm đi 1 vì đã loại bỏ ký tự xuống dòng
+        }
+
+        // Kiểm tra độ dài chuỗi nhập vào
+        if (inputLength == 16)
+        {
+            *block = 16;
+            *loop = 10;
+            break;
+        }
+        else if (inputLength == 24)
+        {
+            *block = 24;
+            *loop = 12;
+            break;
+        }
+        else if (inputLength == 32)
+        {
+            *block = 32;
+            *loop = 14;
+            break;
+        }
+        else if (inputLength > 16 && inputLength < 24)
+        {
+            *block = 24;
+            conlai = 24 - inputLength;
+            break;
+        }
+        else if (inputLength > 24 && inputLength < 32)
+        {
+            *block = 32;
+            conlai = 32 - inputLength;
+            break;
+        }
+        if(inputLength > 32 || inputLength < 0)
+        {
+            printf("Number of character is not 16/24/32, please enter 16/24/32 character to execute code\n");
+        }
+    }
+    printf("%d", *block);
+    for (int i = 0; i < *block - conlai; i++)
+    {
+        key[i] = input[i]; // Giữ nguyên ký tự đầu vào
+    }
+    for (int i = *block - conlai; i < *block; i++)
+    {
+        key[i] = 'a'; // Giữ nguyên ký tự đầu vào
+    }
+}
 int main() {
     clock_t start, end;
     int block = 0;
@@ -482,8 +546,8 @@ int main() {
         switch (choice) {
         case 1:
 
-            getInputKey(&loop,&block,key);
-
+           // getInputKey(&loop,&block,key);
+            getInputKey1(&loop, &block, key);
             start = clock();
             if (block == 16 || block == 24) {
                 ExpandKey(loop, block, key, expandedKey);
@@ -535,7 +599,8 @@ int main() {
             break;
         case 2:
 
-            getInputKey(&loop,&block,key);
+           // getInputKey(&loop,&block,key);
+            getInputKey1(&loop, &block, key);
             start = clock();
          //   ExpandKey(loop, block,key, expandedKey);
             if (block == 16 || block == 24) {

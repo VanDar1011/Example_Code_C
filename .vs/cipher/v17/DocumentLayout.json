@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Code C\\cipher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\fix24bit.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\fix24bit.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\ciphertext_output.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\ciphertext_output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -17,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\plaintext_output.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\plaintext_output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\fix24bit.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|solutionrelative:cipher\\fix24bit.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A381A529-7752-4364-9E9B-630CBF37C9B9}|cipher\\cipher.vcxproj|D:\\Code C\\cipher\\cipher\\fixCipher.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
@@ -91,13 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "fix24bit.c",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\fix24bit.c",
               "RelativeDocumentMoniker": "cipher\\fix24bit.c",
               "ToolTip": "D:\\Code C\\cipher\\cipher\\fix24bit.c",
               "RelativeToolTip": "cipher\\fix24bit.c",
-              "ViewState": "AQIAAJoBAAAAAAAAAAAAAKMBAAArAAAA",
+              "ViewState": "AQIAAOQBAAAAAAAAAAAYwPcBAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-11T18:25:38.375Z",
               "EditorCaption": ""
@@ -124,8 +124,7 @@
               "RelativeToolTip": "cipher\\fixCipher.c",
               "ViewState": "AQIAANUBAAAAAAAAAAAmwOQBAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-06T14:48:48.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T14:48:48.03Z"
             },
             {
               "$type": "Document",
@@ -177,13 +176,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ciphertext_output.txt",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\ciphertext_output.txt",
               "RelativeDocumentMoniker": "cipher\\ciphertext_output.txt",
               "ToolTip": "D:\\Code C\\cipher\\cipher\\ciphertext_output.txt",
               "RelativeToolTip": "cipher\\ciphertext_output.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKwCAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-04-04T20:45:50.509Z",
               "EditorCaption": ""
@@ -202,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ciphertext_input.txt",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\ciphertext_input.txt",
               "RelativeDocumentMoniker": "cipher\\ciphertext_input.txt",
@@ -215,13 +214,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "plaintext_output.txt",
               "DocumentMoniker": "D:\\Code C\\cipher\\cipher\\plaintext_output.txt",
               "RelativeDocumentMoniker": "cipher\\plaintext_output.txt",
               "ToolTip": "D:\\Code C\\cipher\\cipher\\plaintext_output.txt",
               "RelativeToolTip": "cipher\\plaintext_output.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAB3DAEA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABXDAEA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-04-04T17:44:19.615Z",
               "EditorCaption": ""
