@@ -457,7 +457,7 @@ void getInputKey1(int* loop, int* block, unsigned char key[80])
 {
     char input[80];  // Mảng để lưu 16 ký tự nhập từ bàn phím, kèm theo ký tự kết thúc chuỗi '\0'
     int inputLength; // Độ dài thực sự của chuỗi nhập vào
-    int conlai;
+    int conlai = 0;
     // Nhập chuỗi từ bàn phím và kiểm tra độ dài
     while (1)
     {
